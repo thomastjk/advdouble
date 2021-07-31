@@ -5,8 +5,14 @@ Real-time object detection is one of the key applications of deep neural network
 
 This project presents an adversarial patch attack on the YOLOv3 with Darknet53 detector. The pre-trained patch included in the Jupyter Notebook is trained with 1 epoch and has an attack success rate (ASR) of 80%. No further training was done beyond 1 epoch since it took over 14 hours. The ASR can be further increased with more training. This can be carried on by the next user.
 
-#Generated Patches 
+# Generated Patches 
+This is the 26x26 pixel patch generated to be placed on the right cheek 
 
+![example](https://github.com/thomastjk/advdouble/blob/main/cheekpatch.png)
+
+This is the 26x26 pixel patch generated to be placed on the forehead
+
+![example](https://github.com/thomastjk/advdouble/blob/main/forehead.png)
 
 # Installation and Dependencies 
 This project runs on Python 3.6. You are highly recommended to create a virtual environment to make sure the dependencies do not interfere with your current programming environment. By default, GPUs will be used to accelerate the process of adversarial attacks.
