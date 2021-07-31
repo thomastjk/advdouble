@@ -24,7 +24,7 @@ To install related packages, run the following command in terminal:
 pip install -r requirements.txt
 ```
 
-This attack also uses the face_recognition package. To install it , run the following command:
+This attack also uses the [face_recognition](https://github.com/ageitgey/face_recognition) package. To install it , run the following command:
 ``` 
 !pip install face_recognition
 ```
@@ -37,8 +37,16 @@ To be able to initialize the YOLOv3 model, please download the pretrained weight
 
 The Jupyter Notebook named "Double TOG" is used to demonstrate the adversarial effects of the double patch generated. 
 
+# Results 
+
+After generating the double patch, several basic adversarial defense methods were used in the evaluation of the patches' spatial robustness. Basic affine transformations like scaling, rotating and translating were employed. Below are the graphs showing the effect of the affine transformation on the patches' ASR. 
+
+
+
 # Acknowledgement
 
 This project was built upon the following project:
 
 [TOG](https://github.com/git-disl/TOG)
+
+[face_recognition](https://github.com/ageitgey/face_recognition)
