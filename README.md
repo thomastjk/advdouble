@@ -12,7 +12,9 @@ This is the 26x26 pixel patch generated to be placed on the right cheek
 
 This is the 26x26 pixel patch generated to be placed on the forehead
 
-![example](https://github.com/thomastjk/advdouble/blob/main/forehead.png)
+![example](https://github.com/thomastjk/advdouble/blob/main/forehead%20patch.png)
+
+To use the pretrained patch, please run the cell marked with the title "Pretrained Patch". It can be found in the lower sections of the Jupyter Notebook named "Double TOG".
 
 # Installation and Dependencies 
 This project runs on Python 3.6. You are highly recommended to create a virtual environment to make sure the dependencies do not interfere with your current programming environment. By default, GPUs will be used to accelerate the process of adversarial attacks.
@@ -30,6 +32,10 @@ This attack also uses the face_recognition package. To install it , run the foll
 To be able to initialize the YOLOv3 model, please download the pretrained weights below!
 
 [Link to YOLOv3 weights](https://www.dropbox.com/s/rx3r15fg8h1jl8v/YOLOv3_Darknet53.h5?dl=0)
+
+# Instruction
+
+The Jupyter Notebook named "Double TOG" is used to demonstrate the adversarial effects of the double patch generated. 
 
 # Acknowledgement
 
