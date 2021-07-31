@@ -41,7 +41,17 @@ The Jupyter Notebook named "Double TOG" is used to demonstrate the adversarial e
 
 After generating the double patch, several basic adversarial defense methods were used in the evaluation of the patches' spatial robustness. Basic affine transformations like scaling, rotating and translating were employed. Below are the graphs showing the effect of the affine transformation on the patches' ASR. 
 
+Effects of Rotation on ASR:
 
+![example](https://github.com/thomastjk/advdouble/blob/main/asr%20vs%20rotation.png)
+
+Effects of Scale on ASR:
+
+![example](https://github.com/thomastjk/advdouble/blob/main/asr%20vs%20scale.png)
+
+Effects of no. of pixels shift in ASR: (Positive is rightwards and downwards)
+
+![example](https://github.com/thomastjk/advdouble/blob/main/asr%20vs%20shift.png)
 
 # Acknowledgement
 
