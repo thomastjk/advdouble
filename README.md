@@ -3,7 +3,7 @@
 
 Real-time object detection is one of the key applications of deep neural networks (DNNs) for real-world mission-critical systems. While DNN-powered object detection systems celebrate many life-enriching opportunities, they also open doors for misuse and abuse. 
 
-This project presents an adversarial patch attack on the YOLOv3 with Darknet53 detector. The pre-trained patch included in the Jupyter Notebook is trained with 1 epoch and has an attack success rate (ASR) of 80%. No further training was done beyond 1 epoch since it took over 14 hours. The ASR can be further increased with more training. This can be carried on by the next user.
+AdvDouble presents a double adversarial patch attack on the YOLOv3 with Darknet53 backbone detector. The pre-trained patch included in the Jupyter Notebook is trained with 1 epoch and has an attack success rate (ASR) of 80%. No further training was done beyond 1 epoch since the 1 epoch takes over 14 hours with GPU training enabled. The ASR can be further increased with more training. This can be carried on by the next user.
 
 # Trial 16x16 Inconspicuous Patch
 
