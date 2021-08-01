@@ -52,6 +52,12 @@ To be able to initialize the YOLOv3 model, please download the pretrained weight
 
 [Link to YOLOv3 weights](https://www.dropbox.com/s/rx3r15fg8h1jl8v/YOLOv3_Darknet53.h5?dl=0)
 
+Download the CelebA dataset locally!
+
+[CelebA dataset](https://drive.google.com/drive/folders/0B7EVK8r0v71pWEZsZE9oNnFzTm8?resourcekey=0-5BR16BdXnb8hVj6CNHKzLg)
+
+The dataset is not split into training/eval/testing. This would need to be conducted by the user. In my application, I used 80% for training and 20% for testing. Please split the training and testing images into separate folders. The Jupyter notebook will require 2 filepaths to the training and testing dataset. 
+
 # Instruction
 
 The Jupyter Notebook named "Double TOG" is used to demonstrate the adversarial effects of the double patch generated. 
@@ -74,8 +80,8 @@ Effects of no. of pixels shift in ASR: (Positive is rightwards and downwards)
 
 # Acknowledgement
 
-This project was built upon the following project:
+This project was built with the help of the following projects:
 
-[TOG](https://github.com/git-disl/TOG)
+[TOG](https://github.com/git-disl/TOG) : For Adversarial attacks
 
-[face_recognition](https://github.com/ageitgey/face_recognition)
+[face_recognition](https://github.com/ageitgey/face_recognition) : For Facial Landmark Recognition
