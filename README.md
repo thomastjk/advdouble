@@ -9,9 +9,19 @@ This project presents an adversarial patch attack on the YOLOv3 with Darknet53 d
 
 I tried to generate a 16x16 patch with the goal of inconspicuity in mind. However, the results were not ideal. ASR achieved was below 2%.
 
+The 16x16 patch is shown below:
 
+![example](https://github.com/thomastjk/advdouble/blob/main/16x16.png)
 
-# Generated Patches
+The 16x16 patch in action. In this instance, it works. 
+
+![example](https://github.com/thomastjk/advdouble/blob/main/16x16%20vanishing.png)
+
+But not in this instance, which is the majority of the case:
+
+![example](https://github.com/thomastjk/advdouble/blob/main/16x16%20no%20vanishing.png)
+
+# Working Pretrained Patches
 
 Below are the double patches generated with an ASR of 80%. 
 
